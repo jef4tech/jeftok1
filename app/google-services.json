@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "632850632690",
+    "firebase_url": "https://jeftok-bdb54.firebaseio.com",
+    "project_id": "jeftok-bdb54",
+    "storage_bucket": "jeftok-bdb54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632850632690:android:ff1afa0087989963",
+        "android_client_info": {
+          "package_name": "com.example.jeftok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632850632690-d3dvotfj58osvue2o43movrrnvbk2drq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeftok",
+            "certificate_hash": "b06f785567ea718856ba8604507f51f87172a535"
+          }
+        },
+        {
+          "client_id": "632850632690-d8k5nabotuoqvpqqq1usrohqqsbhq3i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2WbtibpM498IWlFBvF0BvIzTLE1PY0Yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632850632690-d8k5nabotuoqvpqqq1usrohqqsbhq3i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

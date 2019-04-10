@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">jeftok</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="addl">ADD LIVES</string>
+    <string name="ul">UPCOMING LIVES</string>
+    <string name="feedbacktype1">ENTER ID</string>
+    <string name="feedbacktype2">ENTER TIME</string>
+    <string name="feedbacktype3">ENTER COUNTRY/TIMEZONE</string>
+    <string name="feedbacktype4">Bug</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feedbackbutton">SUBMIT</string>
+</resources>
