@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".user2">
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/check_availability_button"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="137dp"
+                android:background="@color/red"
+                android:gravity="center"
+                android:text="@string/img" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="137dp"
+                android:background="@color/red"
+                android:gravity="center"
+                android:text="@string/ul" />
 
 
+        </LinearLayout>
     </ScrollView>
 
-    <ImageView
-        android:id="@+id/imv"
-        android:layout_width="wrap_content"
-        android:layout_height="392dp"
-        tools:src="@tools:sample/backgrounds/scenic" />
 
 
 </FrameLayout>

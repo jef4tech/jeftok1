@@ -40,7 +40,7 @@ public class user1 extends Fragment {
         cancel1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getActivity().getApplication(),home.class);
+                Intent i = new Intent(getActivity().getApplication(),viewlive.class);
                 startActivity(i);
 
             }
