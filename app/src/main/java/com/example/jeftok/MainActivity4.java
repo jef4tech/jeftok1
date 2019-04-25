@@ -52,8 +52,8 @@ public class MainActivity4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main11);
 
+
         nameEditText = (EditText) findViewById(R.id.nameEditText);
-        ageEditText = (EditText) findViewById(R.id.ageEditText);
         imageView = (ImageView) findViewById(R.id.imageView);
         uploadButton = (Button) findViewById(R.id.uploadButton);
         responseTextView = (TextView) findViewById(R.id.responseTextView);
@@ -79,9 +79,12 @@ public class MainActivity4 extends AppCompatActivity {
     }
 
     public void uploadButtonClicked(View view) {
-        String name = nameEditText.getText().toString();
-        int age = Integer.parseInt(ageEditText.getText().toString());
-        NetworkCall.fileUpload(filePath, new ImageSenderInfo(name, age));
+        Intent us = getIntent();
+        final String str = us.getStringExtra("name");
+    /*    String name = nameEditText.getText().toString();*/
+        String name=str;
+        nameEditText.setText(name);
+        NetworkCall.fileUpload(filePath, new ImageSenderInfo(name,0));
     }
 
     private String getPath(Uri uri) {

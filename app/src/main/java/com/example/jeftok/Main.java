@@ -149,6 +149,7 @@ public class Main extends AppCompatActivity {
             try {
                 // Assign a unique token to this device
                 String deviceToken = Pushy.register(Main.this);
+                Pushy.subscribe("news", getApplicationContext());
 
                 // Save token locally / remotely
                 saveDeviceToken(deviceToken);

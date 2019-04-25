@@ -1,6 +1,7 @@
 package com.example.jeftok;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -15,10 +16,10 @@ public class home extends AppCompatActivity {
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
         Fragment fragment = null;
-        /*
+/*
                 Intent intent = getIntent();
-                String str = intent.getStringExtra("name");
-              */  @Override
+                String str = intent.getStringExtra("name");*/
+                @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
@@ -28,7 +29,7 @@ public class home extends AppCompatActivity {
                     fragment = new user2();
                     break;
                 case R.id.navigation_notifications:
-                    fragment = new user1();
+                    fragment = new user3();
                     break;
 
 

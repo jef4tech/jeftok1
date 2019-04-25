@@ -46,10 +46,16 @@ public class user2 extends Fragment {
     private Button booking1,cancel1;
 
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
+
+        Intent us = getActivity().getIntent();
+        final String str = us.getStringExtra("name");
+
         View rootView = inflater.inflate(R.layout.fragment_user2, container, false);
         if(Build.VERSION.SDK_INT>9){
             StrictMode.ThreadPolicy Policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
@@ -61,6 +67,7 @@ public class user2 extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getActivity().getApplication(),MainActivity4.class);
+                i.putExtra("name",str);
                 startActivity(i);
 
             }

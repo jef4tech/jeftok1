@@ -30,7 +30,7 @@ public class viewlive extends AppCompatActivity {
     }
 
 
-    class MyBrowser extends WebViewClient {
+    static class MyBrowser extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             view.loadUrl(url);

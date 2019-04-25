@@ -28,7 +28,6 @@
         <activity android:name=".viewlive"></activity>
         <activity android:name=".addlive" />
         <activity android:name=".MainActivity4"></activity>
-        <activity android:name=".userimg" />
         <activity android:name=".Main"></activity>
         <activity
             android:name=".home"
