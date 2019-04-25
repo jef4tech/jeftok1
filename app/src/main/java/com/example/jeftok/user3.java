@@ -9,12 +9,13 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class user3 extends Fragment {
 
     private WebView wv1;
-    EditText a;
+    TextView a;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -25,8 +26,8 @@ public class user3 extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_user3, container, false);
         wv1 = (WebView)rootView.findViewById(R.id.webview);
-    /*    a=rootView.findViewById(R.id.textView2);
-        a.setText(str);*/
+        a=rootView.findViewById(R.id.textView2);
+        a.setText(str);
         wv1.setWebViewClient(new MyBrowser());
 
 
