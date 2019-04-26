@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t5"
+    tools:context=".promote">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="482dp"
+        android:layout_height="391dp"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:text="PROMOTE UR ACCOUNT"
+                android:textColor="@color/red"
+                android:textSize="50dp" />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="558dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/feedbacktype1"
+                android:textColor="@color/red"
+                android:textColorHint="@color/green"
+                android:textSize="20dp"></EditText>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/feedbackbutton"></Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

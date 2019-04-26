@@ -29,7 +29,6 @@
             android:id="@+id/submit"
             android:layout_height="wrap_content"
             android:text="@string/feedbackbutton"
-            android:onClick="sendFeedback"
             android:layout_width="fill_parent">
         </Button>
 

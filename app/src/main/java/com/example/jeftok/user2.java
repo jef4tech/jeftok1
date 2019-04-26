@@ -75,7 +75,7 @@ public class user2 extends Fragment {
         cancel1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getActivity().getApplication(),viewlive.class);
+                Intent i = new Intent(getActivity().getApplication(),promote.class);
                 startActivity(i);
 
             }
