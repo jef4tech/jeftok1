@@ -2,8 +2,9 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ScrollView01"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/t5"
     android:scrollbars="vertical">
     <LinearLayout
         android:layout_width="fill_parent"
@@ -13,16 +14,22 @@
         <EditText
             android:id="@+id/id"
             android:layout_width="558dp"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
             android:layout_height="wrap_content"
             android:hint="@string/feedbacktype1"></EditText>
         <EditText
             android:id="@+id/time"
             android:layout_width="558dp"
+            android:textColorHint="@color/green"
+            android:textColor="@color/green"
             android:layout_height="wrap_content"
             android:hint="@string/feedbacktype2"></EditText>
         <EditText
             android:id="@+id/zone"
+            android:textColorHint="@color/green"
             android:layout_width="558dp"
+            android:textColor="@color/green"
             android:layout_height="wrap_content"
             android:hint="@string/feedbacktype3"></EditText>
         <Button
