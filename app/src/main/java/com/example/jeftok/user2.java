@@ -43,7 +43,7 @@ import java.util.List;
 
 
 public class user2 extends Fragment {
-    private Button booking1,cancel1;
+    private Button booking1,cancel1,flip;
 
 
 
@@ -62,7 +62,17 @@ public class user2 extends Fragment {
             StrictMode.setThreadPolicy(Policy);
         }
         booking1 = (Button)rootView.findViewById(R.id.check_availability_button);
+        flip = (Button)rootView.findViewById(R.id.flip);
         cancel1=rootView.findViewById(R.id.button6);
+        flip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity().getApplication(),MainActivity3.class);
+                i.putExtra("name",str);
+                startActivity(i);
+
+            }
+        });
         booking1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
