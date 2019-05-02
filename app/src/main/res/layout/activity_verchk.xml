@@ -29,4 +29,10 @@
         android:layout_marginBottom="524dp"
         android:text="CHECK" />
 
+    <Button
+        android:id="@+id/imp_retry"
+        android:layout_width="465dp"
+        android:layout_height="225dp"
+        android:text="Button" />
+
 </RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.jeftok;
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -20,14 +21,32 @@ import java.net.URL;
 import java.util.Arrays;
 
 public class verchk extends AppCompatActivity {
-    Button b1;
+    Button b1,imp_retry;
+    private Context context;
 
+    class C04817 implements View.OnClickListener {
+        C04817() {
+        }
+
+        public void onClick(View view) {
+            if (appstatus.getInstance(verchk.this.context).isOnline() != null) {
+
+                verchk.this.imp_retry.setVisibility(8);
+                return;
+            }
+            verchk.this.imp_retry.setVisibility(0);
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verchk);
         b1=findViewById(R.id.three);
+        this.imp_retry = (Button) findViewById(R.id.imp_retry);
+        this.imp_retry.setVisibility(8);
+        this.imp_retry.setOnClickListener(new C04817());
+
 
         b1.setOnClickListener(new View.OnClickListener()
         {
@@ -105,5 +124,8 @@ public class verchk extends AppCompatActivity {
         }
     }
 
+    public void onBackPressed() {
+        finish();
+    }
 }
 
