@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.orhanobut:logger:2.1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/d93f713752a88a3c2f6dfad9f31e86ca/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/d93f713752a88a3c2f6dfad9f31e86ca/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/3f6580719059c3d8e5db7a9d12503c60/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/logger-2.1.1.aar/3f6580719059c3d8e5db7a9d12503c60/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
