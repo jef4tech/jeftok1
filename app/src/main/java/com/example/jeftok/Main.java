@@ -12,7 +12,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -38,8 +37,8 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Load main.xml layout
-        setContentView(R.layout.main);
+        // Load main77.xml layout
+        setContentView(R.layout.main7);
         b1=findViewById(R.id.three);
 
         b1.setOnClickListener(new View.OnClickListener()
