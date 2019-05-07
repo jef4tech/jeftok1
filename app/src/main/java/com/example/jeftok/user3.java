@@ -37,7 +37,7 @@ public class user3 extends Fragment {
                 Intent view = new Intent("android.intent.action.SEND");
                 view.setType("text/plain");
                 view.putExtra("android.intent.extra.SUBJECT", "CricInformer App");
-                view.putExtra("android.intent.extra.TEXT", "Download Fantasy Sports Prediction App Click on The URL below\nhttps://play.google.com/store/apps/details?id=fantasy.cric.informer");
+                view.putExtra("android.intent.extra.TEXT", "Download JEFTOK App Click on The URL below\nhttps://sites.google.com/view/jeftok/home");
                 user3.this.startActivity(Intent.createChooser(view, "Choose sharing method"));
             }
         });

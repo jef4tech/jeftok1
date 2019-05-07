@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
+    android:background="@drawable/t5"
     android:layout_height="fill_parent">
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,8 +28,10 @@
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_height="94dp"
+            android:background="@color/colorPrimary"
+            android:text="SHARE"
+            android:textColor="@color/red" />
     </LinearLayout>
 
 </FrameLayout>
