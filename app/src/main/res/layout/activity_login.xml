@@ -13,7 +13,6 @@
 
         <EditText
             android:id="@+id/phone"
-            android:text="ko"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -24,7 +23,6 @@
 
         <EditText
             android:id="@+id/password"
-            android:text="ko"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

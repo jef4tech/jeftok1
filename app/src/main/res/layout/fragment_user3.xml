@@ -12,13 +12,13 @@
         <WebView
             android:id="@+id/webview"
             android:layout_width="match_parent"
-            android:layout_height="355dp"
+            android:layout_height="300dp"
             android:background="@drawable/images" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="83dp"
+            android:layout_height="60dp"
             android:background="@color/green"
             android:text="TextView"
             android:textAlignment="center"
@@ -28,10 +28,12 @@
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="94dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:background="@color/colorPrimary"
             android:text="SHARE"
             android:textColor="@color/red" />
+
     </LinearLayout>
 
 </FrameLayout>
